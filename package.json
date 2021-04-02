@@ -1,0 +1,40 @@
+{
+  "name": "scrape-kartun",
+  "version": "0.0.2",
+  "description": "Scrape film kartun dengan mudah dengan package npm",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreativeStudioID/Scrape-Kartun-Package.git"
+  },
+  "keywords": [
+    "nodejs",
+    "rest api",
+    "api",
+    "zhirrr",
+    "scraper",
+    "npm",
+    "kartun"
+  ],
+  "author": "Zhirrr // zhirrrstudio@gmail.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/CreativeStudioID/Scrape-Kartun-Package/issues"
+  },
+  "homepage": "https://github.com/CreativeStudioID/Scrape-Kartun-Package#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "bent": "^7.3.12",
+    "jsdom": "^16.4.0",
+    "axios": "^0.19.2",
+    "node-scrapy": "^0.5.0",
+    "request": "^2.88.2",
+    "form-data": "^3.0.0",
+    "file-type": "^16.0.1",
+    "needle": "^2.4.0",
+    "node-fetch": "^2.6.1"
+  }
+}
